@@ -14,22 +14,22 @@ cask "time-pugcha" do
   on_macos do
     on_intel do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Darwin_x86_64.tar.gz"
-      sha256 "96870e62af7b3beb6aa8af14a5ccdc6e5657d328f75c01a1def6ed1b034d200f"
+      sha256 "80bdd968bd9eb38cdeb6a0a85a82068c082179f530a9be15a2311843aa4efa82"
     end
     on_arm do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Darwin_arm64.tar.gz"
-      sha256 "34b5542862e2df048d2f2b75997819bfd50afaee35cfafbeebb21ed3587d28a6"
+      sha256 "dc0b48c65f1a2739606a16f0702310af1f46eefac0628532b430401d75ebe21a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Linux_x86_64.tar.gz"
-      sha256 "ebbbaf53300ced0d2dff9b3d68c627ec7b5f6f33b20ef1137fc3aeb08e76f11a"
+      sha256 "79676801697a15597b83d84183a3d6f536a7dcc057b0b8df2ca541eebbde029f"
     end
     on_arm do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Linux_arm64.tar.gz"
-      sha256 "999b90d926626411fd0fc8861cd8fa8aad5e5436394c96314b5d7023da17cede"
+      sha256 "11328fff3be4f991270ffdcfd19b8e5196a8e94a5ac4b7aebdaf8025fa9f51f6"
     end
   end
 
