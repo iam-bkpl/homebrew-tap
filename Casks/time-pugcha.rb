@@ -3,7 +3,7 @@ cask "time-pugcha" do
   name "time-pugcha"
   desc "Can i have a coffee break ?"
   homepage "https://github.com/iam-bkpl/time-pugcha"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "time-pugcha" do
   on_macos do
     on_intel do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Darwin_x86_64.tar.gz"
-      sha256 "ebe3b9b4dacc1eb90208d293fcd8842e377314cc77919f64f904ee8594a66d06"
+      sha256 "176eae2ed46b32489548f56a32bb0d5432e892aa2367a4ef3e51806d5f49e4df"
     end
     on_arm do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Darwin_arm64.tar.gz"
-      sha256 "17b4e294324cac1d45d9767c3fe9159b18175f4a399435b4b0b59591e8d0ee28"
+      sha256 "c5dd7ca0872df10aed1208f9089dcc5bde8c307bd6a2a8d6046b170d2a0cb99f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Linux_x86_64.tar.gz"
-      sha256 "59bd9d950395334fa96f6d10908a1eac59128dfdc38bac2d58f8a8030be143d8"
+      sha256 "d2201111975745677d0449532728392d051c2d05a7d02e01bfa5cb0a771dadff"
     end
     on_arm do
       url "https://github.com/iam-bkpl/time-pugcha/releases/download/v#{version}/time-pugcha_Linux_arm64.tar.gz"
-      sha256 "500fed32cdd4b707321404b91ef55b04417b327994dfe973878200f2972da364"
+      sha256 "52df1e3528b51cb295c89ef3c0c2f0ee146e544b12039d634b3892e33c9247ac"
     end
   end
 
