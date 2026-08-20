@@ -4,22 +4,22 @@ cask "code-radar" do
 
   on_macos do
     on_intel do
-      sha256 "36e18f68231d70c6d80f98d39b5ed71ac3b72c19a7346918f047c56157433e8c"
+      sha256 "a29bf7e55501f61d72e5841a2df60a818097bc82b42805f921673f68bec7ad92"
       url "https://github.com/iam-bkpl/code-radar/releases/download/v#{version}/code-radar_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "2d830bb223af292231cfb5f777c7e3c5cce7079ffc710bb835795303d2af0a30"
+      sha256 "543942e09ec048168bdeb5d845528fc7b1a1fc91a1cb972354ebf5210ab18fdd"
       url "https://github.com/iam-bkpl/code-radar/releases/download/v#{version}/code-radar_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "5214d31efe33c712732e80259adc1bbfaf5ff44f22bf6af49302eb10ea53c9a7"
+      sha256 "b76096009bae5e89342abaaf4e9cb8d632444a7e4b7af6c49347fcfd1a189e5c"
       url "https://github.com/iam-bkpl/code-radar/releases/download/v#{version}/code-radar_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "3123fc0954ea5f35d162b5e0b0b5730d58e51835f316ae4305be5f593a76cecf"
+      sha256 "8c18ff0919e8292db4ce0c1d43a422720fc8f1d7345765972396755ff97c266c"
       url "https://github.com/iam-bkpl/code-radar/releases/download/v#{version}/code-radar_Linux_arm64.tar.gz"
     end
   end
